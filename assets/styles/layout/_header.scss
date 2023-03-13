@@ -1,0 +1,29 @@
+.header
+{
+    @include center;
+    flex-direction: column;
+    gap: 20px;
+    color: $color1;
+    text-align:center;
+    min-height: 80vh;
+
+
+    H1{
+        font-family: "font1";
+        font-size: 4.3rem;
+        text-transform: uppercase;
+        
+
+    }
+    p{
+        font-style: italic;
+        font-size: 1.4rem;
+    }
+
+    .arrow{
+        font-size: 1rem;
+        border: 2px solid $color1;
+        padding: 15px 17px;
+        border-radius: 25px;
+    }
+}

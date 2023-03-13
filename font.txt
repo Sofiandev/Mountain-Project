@@ -1,0 +1,4 @@
+Inter-ExtraBold
+MerriweatherLight
+
+font-family: 'Merriweather', serif;

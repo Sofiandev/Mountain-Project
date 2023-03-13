@@ -1,0 +1,38 @@
+// fonts Inter & Merriweather
+@font-face{
+    font-family : "font1";
+    src: url(../fonts/Inter-ExtraBold.ttf) format("truetype");   
+}
+@font-face{
+font-family: "font2";
+src: url(../fonts/Merriweather-Light.ttf) format("truetype");
+}
+
+$color1 : #F2F3F3;
+$color2 : #161616;
+$color3 : rgb(185, 195, 196);
+$color4 : rgb(79, 82, 83);
+
+
+@mixin center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+@mixin img{
+    width: 80%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url(../images/bg.jpg) no-repeat fixed;
+    background-position-y: center;
+    font-family: "font2";
+
+}

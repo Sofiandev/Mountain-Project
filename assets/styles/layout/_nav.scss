@@ -1,0 +1,31 @@
+nav{
+    color : $color1;
+    font-family: "font1";
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background:rgba(79, 82, 83, 0.162);
+    
+    ul{
+        width: 50%;
+        display: flex;
+        justify-content: flex-start;
+
+
+        li{
+            list-style: none;
+            padding: 20px;
+            i{
+                font-size: 1.3rem;
+            }
+            
+            &:hover{
+                background: #F3F3F3;
+                color: $color4;
+
+            }
+        }
+    }
+}
